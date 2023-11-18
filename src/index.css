@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl font-bold;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded;
+  }
+
+  .btn-primary {
+    @apply text-white bg-cyan-500 active:scale-95 transition-transform;
+  }
+}
